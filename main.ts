@@ -4,5 +4,5 @@ let Blocks = APIs && Annotations;
 
 namespace writeText {
     //% block
-    export function showText(v: string, interval: number = 150): void { }
+    export function showText(textString: string, x: number, y: number): void { }
 }
