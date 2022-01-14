@@ -2,7 +2,7 @@ let APIs = false;
 let Annotations = false;
 let Blocks = APIs && Annotations;
 
-namespace basic {
+namespace writeText {
     //% block
-    export function showNumber(v: number, interval: number = 150): void { }
+    export function showText(v: string, interval: number = 150): void { }
 }
